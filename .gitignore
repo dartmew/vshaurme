@@ -1,4 +1,28 @@
+#Ignore folders
 /coverage
 .idea/
 .vscode/
 .DS_Store/
+
+# SQLite database files
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+*.s3db
+*.sl3
+
+# SQLite journal files (важно игнорировать и их!)
+*.db-journal
+*.sqlite-journal
+*-journal
+
+# SQLite write-ahead log files
+*.db-wal
+*.sqlite-wal
+*-wal
+
+# SQLite shared memory files
+*.db-shm
+*.sqlite-shm
+*-shm
